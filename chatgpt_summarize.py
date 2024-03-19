@@ -1,7 +1,7 @@
-import os
-import openai
 import requests
 from bs4 import BeautifulSoup
+import os
+import openai
 
 '''取得新聞稿內文'''
 def get_soup(url):
